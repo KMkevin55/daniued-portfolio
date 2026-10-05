@@ -25,12 +25,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://halneo.com"),
-  title: `${PROFILE.name} — ${PROFILE.headline}`,
+  metadataBase: new URL("https://daniued-portfolio.vercel.app"),
+  title: "Daniued Reman Julien — Software Engineer | Email Development & Automation | AI Graduate Applicant",
   description: PROFILE.summaryVerbatim,
   openGraph: {
-    title: `${PROFILE.name} — Portfolio`,
+    title: "Daniued Reman Julien — Software Engineer | Email Development & Automation | AI Graduate Applicant",
     description: PROFILE.summaryVerbatim,
+    url: "https://daniued-portfolio.vercel.app",
     images: [{ url: "/og.jpg", width: 1200, height: 630 }],
   },
 };

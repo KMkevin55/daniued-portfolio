@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://halneo.com/sitemap.xml
+Sitemap: https://daniued-portfolio.vercel.app/sitemap.xml
